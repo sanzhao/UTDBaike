@@ -60,7 +60,7 @@
 	background-color: #222;
 }
 
-/* Transitions and class for reduced height */
+/* Shrink Transitions */
 .cbp-af-header h1,
 .cbp-af-header nav a {
 	-webkit-transition: all 0.3s;
@@ -75,6 +75,10 @@
 .cbp-af-header.cbp-af-header-shrink h1,
 .cbp-af-header.cbp-af-header-shrink nav a {
 	line-height: 90px;
+	font-size: 20px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1{
 	font-size: 50px;
 }
 
@@ -82,7 +86,7 @@
 	font-size: 90px;
 }
 
-/* Example Media Queries */
+/* Media Queries */
 @media screen and (max-width: 55em) {
 	
 	.cbp-af-header .cbp-af-inner {
