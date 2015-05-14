@@ -162,8 +162,6 @@ ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
 
-.logo {
-     margin-top: -30px;
-    height: 30px ;
-
+#logo {
+height:150px;
 }
